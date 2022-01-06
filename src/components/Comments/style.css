@@ -1,0 +1,28 @@
+#comments-container {
+  color: #ced4da;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 100;
+  background: #000000;
+  padding: 25px;
+  overflow-x: hidden;
+  border-radius: 10px;
+}
+
+#comments-container .user-comment {
+  background: #495057;
+  border-radius: 10px;
+}
+
+#comments-container .user-comment p {
+  padding: 10px;
+}
+
+#comments-container pre {
+  background: #495057;
+  padding: 10px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

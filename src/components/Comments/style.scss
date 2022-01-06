@@ -1,0 +1,40 @@
+@import "../../style/variables.scss";
+
+#comments-container {
+  color: $primaryColor;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 100;
+  background: #000000;
+  padding: 25px;
+  overflow-x: hidden;
+  border-radius: 10px;
+
+  .user-comment {
+    background: $secondaryBackground;
+    border-radius: 10px;
+    p {
+      padding: 10px;
+    }
+  }
+  //   height: 100vh;
+  //   position: relative;
+
+  //   .inner-container {
+  //     position: absolute;
+  //     overflow-y: scroll;
+  //     right: -17px;
+  //     top: 0;
+  //     bottom: 0;
+  //     left: 0;
+  //     overflow-x: hidden;
+  //   }
+
+  pre {
+    background: $secondaryBackground;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
